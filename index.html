@@ -3,30 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
 </head>
 <body>
-    <div class="hero">
-        <div class="header">
-            <div>Header Logo</div>
-            <div class="links">
-                <ul>
-                    <li><a href="#">header link one</a></li>
-                    <li><a href="#">header link two</a></li>
-                    <li><a href="#">header link three</a></li>
-                </ul>
-            </div>
+    <div class="section hero">
+        <div class="hero-title">
+            <h3 class="header-logo">Header Logo</h3>
+            <ul>
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
         </div>
         <div class="hero-content">
             <div class="hero-text">
-                <h1>This website is awesome</h1>
-                <small>The website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</small>
+                <h1 class="hero-main">This website is awesome</h1>
+                <p class="subtext">The website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
                 <button>Sign up</button>
             </div>
+            <div class="placeholder"><p>this is a placeholder for an image</p></div>
         </div>
     </div>
 
-    <div class="information">
+    <div class="section information">
         <h3>Some random information.</h3>
         <div class="illustration">
             <ul>
@@ -47,27 +47,26 @@
                     <small>this is some subtext under an illustration or image</small>
                 </li>
             </ul>
-            
         </div>
+    </div>
 
-        <div class="quote">
-            <quote>This is an inspiring quote, or a testimonial from a customer. Maybe it's jsut filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</quote>
-            <strong>-Thor, God of Thunder</strong>
-        </div>
+    <div class="quote section">
+        <quote>This is an inspiring quote, or a testimonial from a customer. Maybe it's jsut filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</quote>
+        <strong>-Thor, God of Thunder</strong>
+    </div>
 
-        <div class="call-to-action">
-            <div class="dialog">
-                <div>
-                    Call to action! It's time!
-                    <small>Sign up for our product by clicking that button right over there!</small>
-                </div>
-                <button>Sign up</button>
+    <div class="section call-to-action">
+        <div class="dialog">
+            <div>
+                Call to action! It's time!
+                <small>Sign up for our product by clicking that button right over there!</small>
             </div>
+            <button>Sign up</button>
         </div>
+    </div>
 
-        <div class="footer">
-            <small>Copyright &copy; The Odin Project 2021</small>
-        </div>
+    <div class="section footer">
+        <small>Copyright &copy; The Odin Project 2021</small>
     </div>
 </body>
 </html>
