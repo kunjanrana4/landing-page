@@ -71,6 +71,24 @@ body{
     color: #1F2937;
 }
 
+
+.dialog{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+    gap: 150px;
+}
+
+.dialog button{
+    border: 1px solid white;
+}
+
+.dialog strong{
+    text-align: left;
+    color: white;
+}
+
 blockquote{
     margin: 0;
     font-weight: lighter;
