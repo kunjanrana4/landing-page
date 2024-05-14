@@ -5,8 +5,8 @@ The project is part of The Odin Project course for designing a landing page.
 This project is for designing an entire web page from scratch from the provided design.
 The design is provided with two images:
 
-| A complete website design                      | Colors and font styles |
-|------------------------------------------------|------------------------|
+| A complete website design                          | Colors and font styles               |
+|----------------------------------------------------|--------------------------------------|
 | ![complete website](./design/complete-website.png) | ![colors and font](./design/fonts-colors.png) |
 
 ## License
