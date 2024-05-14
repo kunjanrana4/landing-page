@@ -36,6 +36,7 @@ body{
 .hero-content{
     display: flex;
     flex-wrap: wrap-reverse;
+    justify-content: center;
     gap: 36px;
     margin: 1in 0;
 }
@@ -74,10 +75,13 @@ body{
 
 .dialog{
     background-color: #3882F6;
+    border-radius: 8px;
+    margin: 50px auto;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
     padding: 50px 100px;
-    gap: 150px;
 }
 
 .dialog button{
@@ -85,6 +89,7 @@ body{
 }
 
 .dialog strong{
+    margin: 0;
     text-align: left;
     color: white;
 }
